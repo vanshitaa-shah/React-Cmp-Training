@@ -4,28 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carousel</title>
+    <title>Pagination</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="carousel.css" />
+    <link rel="stylesheet" href="pagination.css" />
   </head>
   <body>
-    <div class="carousel">
-      <img class="author-img" src="imgs/maria.jpg" alt="Maria de Almeida" />
-      <!-- For testimonial element -->
-      <blockquote>
-        <p class="testimonial-text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-          molestias cupiditate magni impedit placeat nisi quam labore earum
-          vitae. Lorem ipsum dolor sit amet.
-        </p>
-        <p class="testimonial-author">Maria de Almeida</p>
-        <p class="testimonial-job">enior Product Manager at EDP Comercial</p>
-      </blockquote>
-
-      <button class="btn btn--left">
+    <div class="pagination">
+      <button class="btn">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -41,7 +29,17 @@
           />
         </svg>
       </button>
-      <button class="btn btn--right">
+
+      <a class="page-link" href="#">1</a>
+      <a class="page-link" href="#">2</a>
+      <a class="page-link link--fill" href="#">3</a>
+      <a class="page-link" href="#">4</a>
+      <a class="page-link" href="#">5</a>
+      <a class="page-link" href="#">6</a>
+      <span class="more">...</span>
+      <a class="page-link" href="#">23</a>
+
+      <button class="btn">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -57,13 +55,6 @@
           />
         </svg>
       </button>
-
-      <div class="dots">
-        <button class="dot dot--fill">&nbsp;</button>
-        <button class="dot">&nbsp;</button>
-        <button class="dot">&nbsp;</button>
-        <button class="dot">&nbsp;</button>
-      </div>
     </div>
   </body>
 </html>
