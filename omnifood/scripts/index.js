@@ -58,3 +58,26 @@ allLinks.forEach((link) => {
       header.classList.remove("nav-open");
   });
 });
+
+////////////////////////////////////////////////////
+// Sticky navigation
+///////////////////////////////////////////////////
+const sectionHero = document.querySelector(".section-hero");
+const obs = new IntersectionObserver(
+  (entries) => {
+    const ent = entries[0];
+    console.log(ent.isIntersecting);
+    if (!ent.isIntersecting) {
+      document.body.classList.add("sticky");
+    } else {
+      document.body.classList.remove("sticky");
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+
+obs.observe(sectionHero);
