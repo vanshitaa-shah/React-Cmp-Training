@@ -1,0 +1,13 @@
+.ant-btn {
+  height: auto;
+  line-height: 24px;
+  &-primary {
+    padding: 8px 20px;
+  }
+  &-text {
+    height: auto;
+    &:not(:disabled):not(.ant-btn-disabled):hover {
+      background-color: transparent;
+    }
+  }
+}

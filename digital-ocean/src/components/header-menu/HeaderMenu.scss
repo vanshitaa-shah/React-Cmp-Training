@@ -1,0 +1,17 @@
+.headermenu {
+  ul {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    padding: 0 36px;
+    justify-content: flex-start;
+    li {
+      margin: 0 18px;
+      a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
