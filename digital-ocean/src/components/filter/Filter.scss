@@ -1,0 +1,33 @@
+.filter-content {
+  .ant-collapse {
+    background-color: white;
+    border: none;
+
+    .ant-collapse-item {
+      .ant-collapse-header {
+        padding: 16px 0 !important;
+        font-size: 16px;
+      }
+    }
+
+    .ant-collapse-content-box {
+      padding: 16px 0;
+      .filter-panel {
+        max-height: 200px;
+        overflow-y: auto;
+        .categories {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+
+          span {
+            font-size: 16px;
+            font-family: "Inter";
+            line-height: 24px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
