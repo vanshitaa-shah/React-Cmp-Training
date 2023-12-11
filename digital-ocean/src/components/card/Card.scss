@@ -1,0 +1,63 @@
+@import "../../styles/variable";
+
+.card {
+  border: 1px solid $aqua-blue-color;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  &-img {
+    position: relative;
+
+    .tag {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      left: auto;
+      z-index: 1;
+    }
+  }
+
+  &-img-caption {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -31px;
+    position: relative;
+    padding: 0 4px;
+  }
+  &-content {
+    padding: 16px 12px 0;
+  }
+  &-bottom {
+    background-image: url("../../assets/imgs/Wave.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 12px 12px;
+    color: white;
+
+    h4 {
+      font-family: "Inter";
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      margin: 0 0 8px;
+      color: $grey-color;
+    }
+    p {
+      color: $grey-color;
+      margin: 0 0 35px;
+    }
+    .link {
+      text-align: right;
+
+      a {
+        color: $aqua-blue-color;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+    }
+  }
+}
