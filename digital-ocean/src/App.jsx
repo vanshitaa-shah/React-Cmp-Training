@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, ConfigProvider } from "antd";
+import { ConfigProvider } from "antd";
 import { theme } from "./theme/Theme";
 import Header from "./components/header/Header";
 import "./styles/main.scss";

@@ -1,0 +1,14 @@
+@import "../../styles/variable";
+
+.listing {
+  &-header {
+    border-bottom: 2px solid $border-color;
+    margin-bottom: 10px;
+    padd h5 {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      color: $text-secondary;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../styles//variable";
+
+.card-list {
+  padding: 24px 0;
+  border-bottom: 1px solid $grey-color;
+
+  &-wrap {
+    align-items: flex-start;
+  }
+
+  &-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &-content {
+    p {
+      font-size: 16px;
+    }
+  }
+}
