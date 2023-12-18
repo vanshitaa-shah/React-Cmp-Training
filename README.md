@@ -10,5 +10,5 @@
 
 ## Live Links:
 
-- omnifood : [omnifood-rct.netlify.app](omnifood-rct.netlify.app)
+- omnifood : [omnifood-rct.netlify.app](https://omnifood-rct.netlify.app/)
 - Fitness-pro: [https://fitness-pro-rct.netlify.app/](https://fitness-pro-rct.netlify.app/)
