@@ -1,6 +1,6 @@
 # React-Cmp-Training
 
-###Goal : 
+### Goal : 
 - completed udemy course
 - performed all the challenges
 - created responsive omnifood website
